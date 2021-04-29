@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<ul1>
+    <li><a href = "/">Login</a></li>
+    <li><a href = "/home">Home</a></li>
+    <li><a href = "/about">About Us</a></li>
+    <li><a href = "/movie">Featured Films</a></li>
+    <li><a href = "/wildcard">Featured Wildcard Films</a></li>
+    <li><a href = "/wildlife">Featured Wildlife Films</a></li>
+</ul1>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wildcard Films</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+<!-- This section will feature text in the page with the various headings dividing the text-->
+    <img class = "tiger_logo" src ='../static/tigerface.jpg'/>
+    <h1>Featured Wildcard Films</h1>
+        <p>Well this week, we've chosen only one documentary to feature and that was an easy choice...
+            Framing Britney Spears. Have you seen it yet?</p>
+        <!-- Set up linking -->
+        <a href="https://www.nytimes.com/article/framing-britney-spears.html">Read More</a>
+    <h2>Why Framing Britney Spears?</h2>
+        <p>Our featured Wildcard Documentary is Framing Britney Spears because of the conversations it
+            has started around mental health, the entertainment industry, and ownership of one's person. You can watch
+            the documentary film on Hulu. We rank it 4.5 stars out of 5.</p>
+
+    <img class = "card_image" src ='../static/BritneySpears.jpg'/>
+
+    <h3>Ranked Reviews for Framing Britney Spears</h3>
+        <p>We ranked these reviews for Framing Britney Spears and linked their sources</p>
+        <!-- This section will feature ordered list with numbered items to rank reviews -->
+        <ol>
+            <li>The hit documentary arrives on Sky and Now TV, and explores the feeding frenzy that has
+                surrounded the pop star since she was 10 years old...
+            </li>
+            <a href="https://www.theguardian.com/tv-and-radio/2021/feb/16/framing-britney-spears-review-
+            a-sobering-look-at-sexism-and-celebrity-sky-now">See Full Guardian Review</a>
+
+            <li>Britney Spears was a symbol for her entire public life. And, even in her seclusion, we can’t stop
+                seeing her as something more, and less, than simply a person...
+            </li>
+            <a href="https://variety.com/2021/tv/reviews/framing-britney-spears-review-fx-1234892912/">See
+                    Full Variety Review</a>
+            <li>Framing Britney Spears" skips the more obvious title, "Free Britney," the name of a fan-driven
+                movement that's ultimately the primary focus of this latest "The New York Times Presents" documentary.
+                Although Spears' career, and the media's hounding of her, provide the backbone of the FX/Hulu
+                presentation, there's no escaping a tabloid tone despite the newspaper's pedigree...
+            </li>
+            <a href="https://www.cnn.com/2021/02/05/entertainment/framing-britney-spears-review/index.html">See
+                    Full CNN Review</a>
+
+        </ol>
+</body>
+</html>

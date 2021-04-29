@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<ul1>
+    <li><a href = "/">Login</a></li>
+    <li><a href = "/home">Home</a></li>
+    <li><a href = "/about">About Us</a></li>
+    <li><a href = "/movie">Featured Films</a></li>
+    <li><a href = "/wildcard">Featured Wildcard Films</a></li>
+    <li><a href = "/wildlife">Featured Wildlife Films</a></li>
+</ul1>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wildlife Films</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+<!-- This section will feature text in the page with the various headings dividing the text-->
+    <img class = "tiger_logo" src ='../static/tigerface.jpg'/>
+    <div>
+    <h1>Featured Wildlife Films</h1>
+    <h2>Featured Wildlife Films on Netflix</h2>
+    <p>These films are our current picks</p>
+
+    <ul type ="circle">
+        <!-- This section will feature unordered list with circle bullets -->
+        <li>Blackfish, Rating: 5</li>
+        <li>Our Planet, Rating: 5</li>
+        <li>My Octopus Teacher, Rating: 5</li>
+        <li>Night on Earth, Rating: 4</li>
+        <li>Down to Earth with Zac Efron, Rating: 3</li>
+    </ul>
+    <h3>Ranked Reviews for the Featured Film on Netflix</h3>
+    <p>We ranked these reviews for Blackfish and linked their sources</p>
+    <!-- This section will feature ordered list with numbered items to rank reviews -->
+    <ol>
+        <li>Director Gabriela Cowperthwaite packs an incredible amount of information
+            and emotion into the 83-minute documentary...
+            </li>
+        <a href="https://www.commonsensemedia.org/movie-reviews/blackfish">See Full Common Sense Media Review</a>
+
+        <li>The documentary “Blackfish” considers the story of Tilikum, a bull orca, in a
+            scathing look at SeaWorld...
+            </li>
+        <a href="https://www.nytimes.com/2013/07/19/movies/blackfish-a-documentary-looks-critically-at-seaworld.html">See Full New York Times Review</a>
+
+        <li>Impassioned and disturbing, this doc matches The Cove for marrying cool
+            intellect with real fire...
+            </li>
+        <a href="https://www.empireonline.com/movies/reviews/blackfish-review/">See Full Empire Review</a>
+
+    </ol>
+    </div>
+    <img class = "life_image" src ='../static/wildlifepic.jpg'/>
+
+    <div>
+    <h2>Featured Wildlife Films on Hulu</h2>
+    <p>These films/series are our current picks</p>
+    <!-- This section will feature unordered list with circle bullets -->
+        <ul type ="circle">
+            <li>Shark Week, Rating: 5</li>
+            <li>Amazing Africa, Rating: 4</li>
+            <li>Naked and Afraid XL, Rating: 3</li>
+            <li>Man vs. Wild, Rating: 4</li>
+            <li>The Last Alaskans, Rating: 5</li>
+        </ul>
+    <h3>Ranked Reviews for the Featured Film on Hulu</h3>
+        <p>We ranked these reviews for Man vs. Wild and linked their sources</p>
+        <ol>
+            <!-- This section will feature ordered list with numbered items to rank reviews -->
+            <li> I can't get enough of the show! Bear Grylls is a very impressive person. I read most of his
+                personal biography. There are not many people in this world that have a sense of purpose and
+                understanding on how to live. I'm glad to see that we have such positive people in this world...
+            </li>
+            <li>Unrealistic for the Average Man. This show just seems very unrealistic to me.
+                Bear Grylls is extremely fit and can be seen jumping from planes, climbing mountains,
+                and swinging from ropes; things the average American cannot do! He also kills snakes,
+                camels, or anything he can get his hands on and eats it at once...
+            </li>
+            <li>This is a pretty entertaining show. Some of the stuff he has to eat (bugs, etc.) is
+                pretty gross, but that's what you need to do to survive, which is what this show is about...
+            </li>
+            <a href="https://www.commonsensemedia.org/tv-reviews/man-vs-wild/user-reviews/adult">View full reviews</a>
+        </ol>
+    </div>
+</body>
+</html>

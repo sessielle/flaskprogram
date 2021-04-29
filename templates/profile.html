@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<ul1>
+    <li><a href = "/home">Home</a></li>
+    <li><a href = "/about">About Us</a></li>
+    <li><a href = "/movie">Featured Films</a></li>
+    <li><a href = "/wildcard">Featured Wildcard Films</a></li>
+    <li><a href = "/wildlife">Featured Wildlife Films</a></li>
+</ul1>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+<body>
+    <h1> Welcome</h1>
+    <p>Use the navigation bar to find more information about the featured documentary films! Happy Purusing!</p>
+    <h2>Have you seen the films below? Keep them on your radar! </h2>
+    <table style="width:80%">
+    <tr>
+      <th>Documentary Title</th>
+      <th>Genre</th>
+      <th>Medium</th>
+      <th>Release Date</th>
+    </tr>
+    <tr>
+      <td>Nailed It! Double Trouble</td>
+      <td>Wildcard - Reality TV</td>
+      <td>Netflix</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Worn Stories</td>
+      <td>Wildcard - Life</td>
+      <td>Netflix</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Adoption Day</td>
+      <td>Wildcard - Animals</td>
+      <td>Hulu</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Mountain Men</td>
+      <td>Wildlife - Nature</td>
+      <td>Hulu</td>
+      <td>2020</td>
+    </tr>
+    </table>
+</body>
+
+</html>

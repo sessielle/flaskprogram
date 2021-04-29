@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<ul1>
+    <li><a href = "/home">Home</a></li>
+    <li><a href = "/about">About Us</a></li>
+    <li><a href = "/movie">Featured Films</a></li>
+    <li><a href = "/wildcard">Featured Wildcard Films</a></li>
+    <li><a href = "/wildlife">Featured Wildlife Films</a></li>
+</ul1>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Films in Review : Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+<!-- This section will feature text in the homepage with the various headings dividing the text-->
+    <img class = "tiger_logo" src ='../static/tigerface.jpg'/>
+    <h1> Welcome {{username}} to the Films in Review Homepage </h1>
+    <p>There are TONS of documentary films and series to watch and so little time. Which docus are most worth
+        your while?</p>
+    <p>Hopefully our reviews will answer that question for you.</p>
+    <!-- Heading to divide the content -->
+    <h2>What are your preferred genres? Wildlife or... Wildcard?</h2>
+    <p>You can find either of the two on our site! </p>
+    <img class = "home_image" src ='../static/docu.jpg'/>
+
+    <h3>What is the Wildlife genre?</h3>
+    <p>The wildlife genre is a genre of documentary films or film series that typically encompasses animals and plants,
+        usually in their natural habitat. Nature documentary are typically informative and may feature footage of
+        captive animals, their relationships with humans and the ecosystem and so on. </p>
+    <p>Think National Geographic. </p>
+
+    <h3>What is the Wildcard genre?</h3>
+    <p>The wildcard genre is a completely made up term here at Films in Review. We use this genre to feature fun
+        documentaries ranging from the human experience. These documentaries could be informative, historical, about the
+        arts and humanities, or purely for entertainment. </p>
+    <p>Think TED Talks. </p>
+
+</body>
+</html>
