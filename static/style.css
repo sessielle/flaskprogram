@@ -1,0 +1,117 @@
+/* make edits to features of header 1 and add border around main header */
+h1 {
+text-align: center;
+    color: orange;
+    border: 3px solid green;
+}
+/* set features of the logo image */
+img.tiger_logo {
+    padding: 5%;
+    margin: auto;
+}
+
+/* set features of all home page image */
+img.home_image {
+    padding: 5%;
+    margin: auto;
+    width: 50%;
+    height: 10%;
+}
+/* set features of the wildcard images */
+img.card_image {
+    padding: 5%;
+    margin: auto;
+    width: 50%;
+    height: 10%;}
+
+/* set features of the about images */
+img.about_image {
+    padding: 5%;
+    margin: auto;
+    width: 90%;
+    height: 10%;}
+
+/* make edits to features of header 2 */
+h2 {
+    text-align: center;
+    color: rgb(231, 177, 108)
+}
+
+/* make edits to features of header 2 */
+h3 {
+    color: rgb(231, 201, 96)
+}
+
+/* make edits to features of paragraphs */
+p {
+    color:rgb(219, 194, 171)
+}
+
+/* make edits to features of ul1 (navigation bar) */
+ul1{
+  list-style-type: none;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding-left: ;
+  padding: 0;
+  width: 15%;
+  left: 0;
+  top:10;
+  background-color: orange;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it fixed so when scrolling, it will stay on the left side */
+}
+/* for the links on the navigation bar, remove default underline hyperlink */
+li a {
+  display: block;
+  padding: 5%;
+  text-decoration: none;
+}
+/* whenever user hovers over the nav bar, colors change */
+li a:hover {
+  background-color: white;
+  color: green;
+}
+
+/* for other ul, make link color white */
+ul {color:white}
+
+/* for ol, make link color white */
+ol{color:white}
+
+/* create spacing between 2 sections */
+div {
+    margin-top:5%;
+}
+/* center the body of the text, set font, margins and padding */
+body
+{font-family: "Lucida Console", "Courier New", monospace;
+    background-color:#565f81;
+        height: 100%;
+        padding-left:5%;
+        padding-right:5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top:5%;
+    margin-bottom:10%;}
+
+/* set link colors and hover features */
+a:link {
+    color: orange;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+
+
+
+
+
+
+
+
+
+
